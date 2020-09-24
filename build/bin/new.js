@@ -112,8 +112,8 @@ fileSave(sassPath)
   .write(sassImportText, 'utf8')
   .end('\n');
 
-// 添加到 element-ui.d.ts
-const elementTsPath = path.join(__dirname, '../../types/element-ui.d.ts');
+// 添加到 modify-person-ui.d.ts
+const elementTsPath = path.join(__dirname, '../../types/modify-person-ui.d.ts');
 
 let elementTsText = `${fs.readFileSync(elementTsPath)}
 /** ${ComponentName} Component */

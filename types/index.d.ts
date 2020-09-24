@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './modify-person-ui'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './modify-person-ui'
 export default ElementUI
